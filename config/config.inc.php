@@ -28,6 +28,5 @@ if (!defined('GSF_CONFIG')) {
 
     if (_GSF_DEBUG_MODE_) {
         Debug::setTime(null, microtime(true));
-        Debug::showDetails();
     }
 }

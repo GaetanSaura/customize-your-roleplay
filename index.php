@@ -8,5 +8,7 @@
  * @since 25-02-2014
  */
 echo "<pre>";
-include(dirname(__FILE__).'/config/config.inc.php');
+    include(dirname(__FILE__).'/config/config.inc.php');
+    Controller::getInstance();
+    Debug::showDetails();
 echo "</pre>";
