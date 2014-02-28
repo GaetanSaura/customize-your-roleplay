@@ -14,6 +14,12 @@ class Template extends Model
     protected $vars;
     protected $models;
 
+    public function __construct($template_dir)
+    {
+        parent::__construct();
+        $this->href = $template_dir;        
+    }
+    
     public function setVars($vars = array())
     {
         if (!empty($vars)) {

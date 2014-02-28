@@ -15,7 +15,9 @@ return array(
     'Model' => 'classes/',
     'Error' => 'classes/',
     'Traduction' => 'classes/',
-    'Controller' => 'classes/',
+    'Controller' => 'classes/controller',
+    'BackController' => 'classes/controller',
+    'FrontController' => 'classes/controller',
     'Dispatcher' => 'classes/',
     'Template' => 'classes/',
 );
